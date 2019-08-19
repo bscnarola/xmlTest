@@ -4,12 +4,13 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-public class LoadProp {
+public class LoadProp extends Utils {
 
-    FileInputStream fileInputStream;
-    Properties prop;
+    static FileInputStream fileInputStream;
+    static Properties prop;
     public String getProperty(String key)
     {
+        prop = new Properties();
         try{
             fileInputStream=new FileInputStream("src\\test\\Resources\\config.properties");
             prop.load(fileInputStream);
