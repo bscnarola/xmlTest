@@ -1,0 +1,4 @@
+xmlTest\BasePage.class
+xmlTest\BrowserSelector.class
+xmlTest\Utils.class
+xmlTest\LoadProp.class

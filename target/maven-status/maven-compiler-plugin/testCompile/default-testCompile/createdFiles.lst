@@ -1,0 +1,4 @@
+xmlTest\BaseTest.class
+xmlTest\TestSuite.class
+xmlTest\Hooks.class
+xmlTest\RunTest.class
