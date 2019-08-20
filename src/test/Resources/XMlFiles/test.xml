@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite" verbose="1">
+    <!--    <parameter name="browser" value="chrome"></parameter>-->
+    <parameter name="browser" value="chrome"></parameter>
+    <test name="regression">
+        <groups>
+            <run>
+                <include name="test1" />
+                <include name="test2" />
+            </run>
+        </groups>
+        <classes>
+            <class name="xmlTest.TestSuite"/>
+        </classes>
+    </test>
+    <parameter name="browser" value="firefox"></parameter>
+    <test name="Firefox">
+        <groups>
+            <run>
+                <include name="test1" />
+                <include name="test2" />
+            </run>
+        </groups>
+        <classes>
+            <class name="xmlTest.TestSuite"/>
+        </classes>
+    </test>
+</suite>

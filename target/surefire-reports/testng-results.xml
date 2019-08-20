@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="20485" started-at="2019-08-19T15:35:14Z" finished-at="2019-08-19T15:35:34Z">
+    <groups>
+      <group name="test2">
+        <method signature="TestSuite.toVerifyUserNotClick()[pri:0, instance:xmlTest.TestSuite@3dd3bcd]" name="toVerifyUserNotClick" class="xmlTest.TestSuite"/>
+      </group> <!-- test2 -->
+      <group name="test1">
+        <method signature="TestSuite.toVerifyUserCanClick()[pri:0, instance:xmlTest.TestSuite@3dd3bcd]" name="toVerifyUserCanClick" class="xmlTest.TestSuite"/>
+      </group> <!-- test1 -->
+    </groups>
+    <test name="Surefire test" duration-ms="20485" started-at="2019-08-19T15:35:14Z" finished-at="2019-08-19T15:35:34Z">
+      <class name="xmlTest.TestSuite">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:xmlTest.TestSuite@3dd3bcd]" name="openBrowser" is-config="true" duration-ms="9832" started-at="2019-08-19T15:35:14Z" finished-at="2019-08-19T15:35:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="toVerifyUserCanClick()[pri:0, instance:xmlTest.TestSuite@3dd3bcd]" name="toVerifyUserCanClick" duration-ms="4" started-at="2019-08-19T15:35:24Z" finished-at="2019-08-19T15:35:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyUserCanClick -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:xmlTest.TestSuite@3dd3bcd]" name="closeBrowser" is-config="true" duration-ms="929" started-at="2019-08-19T15:35:24Z" finished-at="2019-08-19T15:35:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:xmlTest.TestSuite@3dd3bcd]" name="openBrowser" is-config="true" duration-ms="8781" started-at="2019-08-19T15:35:25Z" finished-at="2019-08-19T15:35:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="toVerifyUserNotClick()[pri:0, instance:xmlTest.TestSuite@3dd3bcd]" name="toVerifyUserNotClick" duration-ms="2" started-at="2019-08-19T15:35:34Z" finished-at="2019-08-19T15:35:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyUserNotClick -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:xmlTest.TestSuite@3dd3bcd]" name="closeBrowser" is-config="true" duration-ms="897" started-at="2019-08-19T15:35:34Z" finished-at="2019-08-19T15:35:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- xmlTest.TestSuite -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
